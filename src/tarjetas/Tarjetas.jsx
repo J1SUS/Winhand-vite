@@ -8,12 +8,12 @@ import play from './img/play 1-A.png'
 function Tarjeta(props) {
     return (
         <div className={`tarjeta tarjeta-${props.id}`}>
-            <img className="tarjeta-img" src={props.img} alt={props.alt} />
+            <div className="img-container"><img className="tarjeta-img" src={props.img} alt={props.alt} /></div>
             <h2>{props.title}</h2>
             <h3>{props.subtitle}</h3>
         </div>
     )
-} 
+}
 
 export default function Tarjetas() {
     return (
