@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(191, 73, 143);
+    background: linear-gradient(234deg, rgba(191, 73, 143, 1) 0%, rgba(65, 106, 124, 1) 51%, rgba(33, 45, 117, 1) 95%);
+}
+
+html {
+    font-size: 16px;
+}

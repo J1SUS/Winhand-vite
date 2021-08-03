@@ -1,0 +1,72 @@
+.Registro * {
+    margin: 0;
+}
+
+.Registro {
+    background-image: url('./img/loteria.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: calc(100 * 100vw / var(--ideal-viewport-width));
+    height: calc(700 * 100vw / var(--ideal-viewport-width));
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.Registro img {
+    width: calc(450 * 100vw / var(--ideal-viewport-width));
+}
+
+.Registro *{
+    position: relative;
+    right: calc(-110 * 100vw / var(--ideal-viewport-width));
+    font-size: calc(30 * 100vw / var(--ideal-viewport-width));
+    font-family: sans-serif;
+}
+.Registro img, .reg{
+    bottom: calc(-110 * 100vw / var(--ideal-viewport-width));
+}
+
+.reg h2{
+    margin-top: calc(50 * 100vw / var(--ideal-viewport-width));
+    margin-bottom: calc(50 * 100vw / var(--ideal-viewport-width));
+    padding: calc(100 * 10vw / var(--ideal-viewport-width));
+    padding-left: calc(100 * 10vw / var(--ideal-viewport-width));
+    padding-right: calc(500 * 10vw / var(--ideal-viewport-width));
+    border-radius: 20px;
+    box-shadow: 2px 3px 5px black;
+    color: rgb(92, 92, 92);
+    text-align: center;
+    width: calc(400 * 100vw / var(--ideal-viewport-width));
+    position: relative;
+    right: calc(10 * 100vw / var(--ideal-viewport-width));
+}
+
+.reg {
+    width: fit-content;
+}
+
+.reg h2:hover {
+    color: rgb(46, 46, 46);
+    cursor: pointer;
+}
+
+.reg h2:active {
+    color: black;
+    box-shadow: 0px 0px 7px black;
+}
+
+@media (max-width: 480px) {
+.Registro {
+    Width: 100%;
+    margin-left: 0;
+}
+.Registro *{
+   font-size: calc(41 * 100vw / var(--ideal-viewport-width));
+}
+.reg h2 {width: calc(500 * 100vw / var(--ideal-viewport-width));}
+.Registro img {
+    width: calc(570 * 100vw / var(--ideal-viewport-width));
+    bottom: calc(-100 * 100vw / var(--ideal-viewport-width))
+}
+}

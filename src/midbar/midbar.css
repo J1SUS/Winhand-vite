@@ -1,0 +1,52 @@
+.midbar *{
+    margin: 0;
+}
+
+.midbar {
+    margin-top: 0.2rem;
+    position: relative;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    padding: 0.4rem;
+    box-shadow: 0px 5px 15px hsl(0, 0%, 5%);
+    z-index: 3;
+}
+
+.midbar h1, .midbar h2 {
+    font-size: calc(53 * 100vw / var(--ideal-viewport-width));
+    position: relative;
+    left: calc(-20 * var(--current-viewport-width) / var(--ideal-viewport-width));
+}
+
+.midbar h2 {
+    font-size: calc(33 * 100vw / var(--ideal-viewport-width));
+}
+
+
+.button {
+    text-align: center;
+    padding: 1.5vmax;
+    padding-left: 4vmax;
+    padding-right: 4vmax;
+    background-color: rgb(31, 31, 31);
+    border-radius: 5px;
+    box-shadow: 1px 3px 10px hsl(0, 0%, 1%);
+    font-size: calc(33 * 100vw / var(--ideal-viewport-width));
+}
+
+
+
+
+.button:hover {
+    background-color: hsl(0, 0%, 15%);
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: hsl(0, 0%, 20%);
+    box-shadow: 2px 2px 5px hsl(0, 0%, 15%);
+}

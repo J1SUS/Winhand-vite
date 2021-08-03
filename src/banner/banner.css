@@ -1,0 +1,85 @@
+:root {
+    --ideal-viewport-width: 1583;
+    --current-viewport-width: 100vw;
+}
+
+
+
+.Banner {
+    position: relative;
+    display: flex;
+    background-image: url('./img/fondo-banner.png');
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    height: calc(600 * var(--current-viewport-width) / var(--ideal-viewport-width));
+    z-index: 4;
+}
+
+.Banner img {
+    display: flex;
+    width: 41%;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    position: relative;
+    bottom: calc(-7 * 100vw / var(--ideal-viewport-width));
+}
+
+.text {
+    position: relative;
+    color: white;
+    text-shadow:  0px -3px black;
+    font-family: sans-serif;
+    font-size: calc(47 * var(--current-viewport-width) / var(--ideal-viewport-width));
+    top: calc(-10 * 100vw / var(--ideal-viewport-width));
+}
+
+.title h3{
+    position: relative;
+    right: calc(-50 * 100vw / var(--ideal-viewport-width));
+}
+
+.text *{
+    margin: 0;
+}
+
+.somos {
+    position: relative;
+    left: calc(-50 * 100vw / var(--ideal-viewport-width));
+}
+
+.text h2{
+    grid-column-start: 2;
+}
+
+.Premiada {
+    position: relative;
+    right: calc(-200 * 100vw / var(--ideal-viewport-width));
+    width: fit-content;
+}
+
+.Colaborativa {
+    position: relative;
+    font-size: calc(75 * var(--current-viewport-width) / var(--ideal-viewport-width));
+    left: calc(-10 * 100vw / var(--ideal-viewport-width));
+}
+
+.Plataforma {
+    font-size: calc(75 * var(--current-viewport-width) / var(--ideal-viewport-width));
+}
+
+.subtitle {
+    position: relative;
+    right: calc(-90 * 100vw /  var(--ideal-viewport-width));
+}
+
+
+
+
+
+
+
+
+
+
