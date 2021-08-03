@@ -107,7 +107,7 @@
     font-size: calc(77 * 100vw / var(--ideal-viewport-width));
   }
   .tarjeta-1 h3{
-    font-size: calc(71 * 100vw / var(--ideal-viewport-width));
+    font-size: calc(65 * 100vw / var(--ideal-viewport-width));
   }
 
   .tarjeta-2 h2{
