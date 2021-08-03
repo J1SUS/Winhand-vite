@@ -1,3 +1,4 @@
+
 .Banner-2{
     display: flex;
     justify-content: center;
@@ -39,4 +40,33 @@
   width: 40%;
   right: calc(150 * 100vw / var(--ideal-viewport-width));
   top: calc(-65 * 100vw / var(--ideal-viewport-width))
+}
+
+
+@media (max-width: 680px) {
+  .Banner-2 img{
+    display: none;
+  }
+
+  .Banner-2 {
+    margin-top: calc(100 * 100vw / var(--ideal-viewport-width))
+  }
+  .Banner-2 .text {
+    position: static;
+    left: 0;
+    margin: 0
+  }
+  .Banner-2 .text *{
+    width: 100%;
+  }
+  .Banner-2 .text h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(1200 * 100vw / var(--ideal-viewport-width));
+    font-size: calc(100 * 100vw / var(--ideal-viewport-width));;
+  }
+  .Banner-2 .text p {
+    width: fit-content;
+  }
 }
