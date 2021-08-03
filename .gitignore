@@ -3,3 +3,6 @@ node_modules
 dist
 dist-ssr
 *.local
+/banner 2
+
+2021 B.png

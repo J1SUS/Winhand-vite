@@ -1,3 +1,42 @@
-.Banner-2 img{
-    width: 100%;
+.Banner-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: calc(200 * 100vw / var(--ideal-viewport-width));
+    height: calc(500 * 100vw / var(--ideal-viewport-width));
+    box-shadow: 0px 10px 20px black;
+    backdrop-filter: blur(200px);
+    backdrop-filter: contrast(95%);
+    backdrop-filter: brightness(110%)
+}
+
+.Banner-2 .text {
+  position: relative;
+  z-index: 1;
+  flex-basis: 60%;
+  margin-left: calc(150 * 100vw / var(--ideal-viewport-width));
+  top: calc(-40 * 100vw / var(--ideal-viewport-width))
+}
+
+
+.Banner-2 .text h1{
+  width: calc(958 * 100vw / var(--ideal-viewport-width));
+  font-size: calc(85 * 100vw / var(--ideal-viewport-width));;
+  text-shadow: 2px 2px 2px black;
+}
+
+.Banner-2 .text p{
+  width: 120%;
+  margin-left: 3.9vmax;
+  font-size: calc(45 * 100vw / var(--ideal-viewport-width));
+  text-shadow: none;
+  filter: opacity(0.85);
+}
+
+.Banner-2 img {
+  position: relative;
+  z-index: 0;
+  width: 40%;
+  right: calc(150 * 100vw / var(--ideal-viewport-width));
+  top: calc(-65 * 100vw / var(--ideal-viewport-width))
 }
