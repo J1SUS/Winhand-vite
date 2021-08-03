@@ -19,6 +19,7 @@ a {
     left: calc(60 * 100vw / var(--ideal-viewport-width));
     width: clamp(31%, 28%, 11em);
     z-index: 40;
+    transition: width 200ms ease;
 }
 
 .links {
@@ -96,6 +97,15 @@ a {
 }
 
 @media (max-width: 450px) {
+  .navbar {
+    position: fixed;
+    width: 100vw;
+    top: 0
+  }
+  .Banner {
+    margin-top: calc(125 * 100vw / var(--ideal-viewport-width))
+  }
+
   .logo {
     top: calc(1 * 100vw / var(--ideal-viewport-width))
   }
@@ -131,7 +141,7 @@ a {
     background: #1b1b1b;
     filter: opacity(0.98);
     padding: 1.5vmax;
-    padding-top: 8vmax;
+    padding-top: 10vmax;
 }
   .links.responsive {
     width: calc(500 * 100vw / var(--ideal-viewport-width));
