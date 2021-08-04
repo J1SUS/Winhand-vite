@@ -1,7 +1,7 @@
 {
   "name": "winhand-vite",
   "version": "0.0.0",
-  "homepage": "https://j1sus.github.io/winhand-vite",
+  "homepage": "http://j1sus.github.io/winhand-vite/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
