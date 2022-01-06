@@ -1,5 +1,5 @@
 import React from 'react';
-import './Tarjetas.css';
+import './Tarjetas.scss';
 import eventos from './img/eventos.png';
 import trofeo from './img/ganadoores-1.png';
 import winhand from './img/winhan 1-A.png';
